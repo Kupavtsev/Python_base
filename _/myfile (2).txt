@@ -1,0 +1,2 @@
+welcome to Python
+Good bye my trading
