@@ -1,9 +1,11 @@
 #This is a guess the number game.
 import random
+
 print('Hello. What is your name?')
 name = input()
-secretNumber = random.randint(1,20)
 print('Well. ' + name + ', I am thinking of a number between 1 and 20')
+
+secretNumber = random.randint(1,20)
 
 print('DEBUG: Secret number is ' + str(secretNumber))
 

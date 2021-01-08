@@ -1,13 +1,3 @@
-# Page 564
-res = []
-for x in range(5):
-    if x % 2 == 0:
-        for y in range(5):
-            if y % 2 == 1:
-                res.append((x, y))
-
-print(res)
-
 #Matrix
 M = [[1, 2, 3],
      [4, 5, 6],
@@ -31,4 +21,3 @@ for row in range(3):
     for col in range(3):                # Это все тоже самое, что и последняя строка 
         tmp.append(M[row][col] * N[row][col])
     res.append(tmp)    
-    

@@ -1,3 +1,4 @@
+# Aproximate solution
 cube = 27
 epsilon = 0.01
 guess = 0.0
