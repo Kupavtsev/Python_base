@@ -12,5 +12,6 @@ while i < len(word):
         print("Give me a " + char + "! " + char)
     i += 1
 print("What does that spell?")
+
 for i in range(times):
     print(word, "!!!")

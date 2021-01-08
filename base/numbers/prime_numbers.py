@@ -1,4 +1,4 @@
-for i in range(2,30):
+for i in range(2, 30):
 	j  = 2
 	counter = 0
 	while j < i:
@@ -9,6 +9,3 @@ for i in range(2,30):
 			j = j + 1
 	if counter == 0:
 		print(str(i) + " is a prime number")
-				
-#	else:
-#		counter = 0

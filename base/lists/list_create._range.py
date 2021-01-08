@@ -10,6 +10,6 @@ for alien_num in range(100):
 
 num_aliens = len(aliens)
 
+print(aliens[20:40])
 print("Number of aliens created:")
 print(num_aliens)
-print(aliens[0:20])

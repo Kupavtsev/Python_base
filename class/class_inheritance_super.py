@@ -18,6 +18,7 @@ tree_1.info()
 tree_1.grow()
 tree_1.info()
 
+print('-----------FruitTree--------')
 class FruitTree(Tree):
     def __init__(self, kind, height):
         # Необходимо вызвать метод инициализации родителя.
@@ -29,9 +30,10 @@ class FruitTree(Tree):
         
 tree_2 = FruitTree("apple", 0.7)
 # у нас есть доступ к методам родителя
-tree_2.info()
 tree_2.grow()
+tree_2.info()
 # Мы можем использовать свой метод
 tree_2.give_fruits()
 # А для родительского экземпляра метод give_fruits() недоступен
-tree_1.give_fruits() # Вызовет ошибку
+# tree_1.give_fruits()
+# Вызовет ошибку
