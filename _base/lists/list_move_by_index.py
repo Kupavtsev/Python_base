@@ -16,7 +16,7 @@ while not found and i < len(L):
 if found:
     print('at index', i)
 else:
-    print(x, 'not found')
+    print(X, 'not found')
 
 print('--------2--------')
 # b
