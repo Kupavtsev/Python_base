@@ -1,4 +1,0 @@
-- it takes google sugestions phrases from xml google page,
-  by your request
-- jQuery and ajax
-- BeautifulSoup 4 parser from HXML
