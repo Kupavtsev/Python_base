@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca3000bb-695e-4e82-8692-7ce709b6a9e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../_/data (2).bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/datafile (2).pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/datafile (2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/datafile.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/datafile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/myfile (2).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/myfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/some.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/temp1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/temp2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_/toread.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1p1z0Nnxf6YTexw6Aw6MhEXGcOp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca3000bb-695e-4e82-8692-7ce709b6a9e0" name="Default Changelist" comment="" />
+      <created>1614365160617</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614365160617</updated>
+      <workItem from="1614365161738" duration="566000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
