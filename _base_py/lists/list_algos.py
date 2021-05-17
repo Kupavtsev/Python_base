@@ -7,12 +7,14 @@
 # input / list / for if / range
 
 # Here is the amount of values in list
+print('Enter amount of list elements: ')
 N = int(input())
 A = [0] * N
 B = [0] * N
 
 for value in range(N):
     # putting values one by one to the list A
+    print('Enter elements of list one by one: ')
     A[value] = int(input())
 for value in range(N):
     # Copy all values from list A to list B

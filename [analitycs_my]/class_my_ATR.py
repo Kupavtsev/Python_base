@@ -1,6 +1,6 @@
 class Atr_calc():
     def __init__(self, day_open, atr):
-        self.opday_openn = open
+        self.day_open = day_open
         self.atr = atr
     
     # Метод задающий 1/2 и Полное движение актива по ATR
@@ -21,17 +21,17 @@ class Atr_calc_minus(Atr_calc):
         print('The levels is 1/4 = {} and 3/4 = {}'.format(self.plus_14, self.plus_34))
 
 
-open, atr = 66164, 178
+day_open, atr = 66164, 178
 
 Atr_calc.value = 18000
 
-test = Atr_calc(open, atr)
+test = Atr_calc(day_open, atr)
 #test.calc_levels()
 #test.print_result()
 
 print(test.value)
 
-#test1 = Atr_calc_minus(open, atr)
+#test1 = Atr_calc_minus(day_open, atr)
 #test1.calc_levels()
 #test1.print_result()
 
