@@ -1,4 +1,4 @@
-import graphic as gr
+import graphics as gr
 
 def build_houes():
     """ Функция, которая рисует дом """

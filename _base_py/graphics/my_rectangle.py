@@ -1,4 +1,4 @@
-import graphics as graphics
+import graphics as gr
 
 window = gr.GraphWin("Russian Game", 300, 300)
 alpha = 0.2

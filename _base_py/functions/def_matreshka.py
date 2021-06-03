@@ -5,3 +5,5 @@ def matryushka(n):
         print("Верх матрёшки n=", n)
         matryushka(n-1)
         print("Низ матрёшки n=", n)
+
+matryushka(3)
