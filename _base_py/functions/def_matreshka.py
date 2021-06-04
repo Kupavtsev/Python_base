@@ -1,4 +1,4 @@
-def matryushka(n):
+def matryushka(n :int) -> None:
     if n == 1:
         print("Матрёшечка")
     else:                           #else показывает, что эта мат-ка не последняя

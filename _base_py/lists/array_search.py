@@ -15,7 +15,7 @@ def array_search(A:list, N:int, x:int): # А Является формальны
 
 def test_array_search():
     A1 = [1, 2, 3, 4, 5]
-    m = array_search(A1, 5, 8)
+    m = array_search(A1, len(A1), 8)
     if m == -1:
         print("#test1 - ok")
     else:

@@ -1,4 +1,4 @@
-def hello_separeted(name = "World", separator = "-"):
+def hello_separeted(name:str = "World", separator:str = "-") -> None:
     print("Hello", name, sep = separator)                   #sep это какой-то разделитель
 
 hello_separeted("John", "***")

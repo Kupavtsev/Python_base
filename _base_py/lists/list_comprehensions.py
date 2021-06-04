@@ -10,16 +10,17 @@ x = A[n]
 
 ####
 
-A = []
+A :list[int] = []
 x = int(input())
 A.append(x)
 n = len(A)
 x = A.pop()
 
-#### List Conprehentions
+#### List Comprehensions
 
 A = [x**2 for x in range(10)]
-A = []
+# The same way
+A :list[int] = []
 for x in range(10):
     A.append(x**2)
 
