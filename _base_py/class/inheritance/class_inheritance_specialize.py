@@ -24,7 +24,8 @@ class Provider(Super):              # Определяет необходимы�
 if __name__ == '__main__':
     for klass in (Inheritor, Replacer, Extender):
         print('\n' + klass.__name__ + '...')
-        klass().method()
+        klass().method()        # Вызывает метод класса через класс
+        # print(klass().method())
     print('\nProvider...')
     x = Provider()
     x.delegate()

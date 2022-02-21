@@ -20,12 +20,12 @@ class ThirdClass(SecondClass):
         self.data *= other
 
 a = ThirdClass("abc")
-a.display()
-print(a)
+a.display()     # "abc"
+print(a)        # [ThirdClass: "abc"]
 b = a + 'xyz'
-print(b)
-a.mul(3)
-print(a)
+print(b)        # [ThirdClass: "abcxyz"]
+a.mul(3)        
+print(a)        # [ThirdClass: "abcabcabc"]
     
 
 x = FirstClass()
@@ -34,12 +34,12 @@ y = FirstClass()
 x.setdata("King Arthur")
 FirstClass.setdata(y, 3.14159)
 #x.another = "NewValue"
-x.display()
-y.display()
+x.display()         # "King Arthur"
+y.display()         # 3.14159
 
 z = SecondClass()
 z.setdata(42)
-z.display()
+z.display()         # 42
 
 '''
 from modulename import FirstClass           # Скопировать имя в мою область видимости
@@ -52,23 +52,24 @@ class SecondClass(modulename.FirstClass):   # Указать полное имя
 '''
 
 # Another Example
-'''
-class rec: pass
+# '''
+class Rec():
+    pass
 
 def upperName(self):
     return self.name.upper()
 
-rec.name = 'bob'
-rec.age = 40
+Rec.name = 'bob'
+Rec.age = 40
 
-x = rec()
-y = rec()
-x.name = 'Sue'
+x1 = Rec()
+y1 = Rec()
+x1.name = 'Sue'
 
-rec.method = upperName
+Rec.method = upperName
 
-x.method()
-y.method()
+x1.method()     # 'SUE'
+y1.method()     # 'BOB'
 
 #print(x.__dict__.keys())
-'''
+# '''

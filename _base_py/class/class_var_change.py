@@ -12,9 +12,9 @@ class Parent:
 		print(str(Parent.counter))
 
 parent = Parent()
-print(parent.counter)
+print(parent.counter)	# 10
 parent.parentFunc()
-parent.setCounter(5)
-parent.showCounter()
-parent.setCounter(25)
-parent.showCounter()
+parent.setCounter(5)	# 5
+parent.showCounter()	# 5
+parent.setCounter(25)	# 25
+parent.showCounter()	# 25

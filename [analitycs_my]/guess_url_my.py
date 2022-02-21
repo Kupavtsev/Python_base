@@ -1,3 +1,7 @@
+"""
+https://en.wikipedia.org/wiki/Singleton_pattern
+"""
+
 from flask import Flask, request, url_for
 from flask_wtf import FlaskForm
 from wtforms import DecimalField, validators

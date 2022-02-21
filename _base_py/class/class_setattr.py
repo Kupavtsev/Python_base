@@ -5,11 +5,10 @@ class Students:
 
 student1 = Students("Fred", 17)
 student2 = Students("Mike", 12)
-print(student1.name)
+print(student1.name)	# Fred
 
 # Добавление свойств к экземпляру Класса
 setattr(student1, 'grade', '8th')
-print(student1.grade)
+print(student1.grade)	# 8th
 
-hasattr(student1, "grade") 
-#True
+hasattr(student1, "grade") #True
