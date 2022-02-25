@@ -1,5 +1,6 @@
 print('How many cats do you have ?')
-numCats = input()
+numCats = input('Enter: ')
+
 try:
     if int(numCats) >= 4:
         print('That is a lot of cats.')

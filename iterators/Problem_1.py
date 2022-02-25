@@ -11,3 +11,15 @@ for char in s:
        or char == 'o' or char == 'u':
         vowels += 1
 print('Number of vowels: ' + str(vowels))        
+
+
+# Another app
+
+z = 'azcbobobegghakl'
+product = 'bob'
+vowels2 = 0
+
+for letter in range(len(z)):
+    if z[letter] in product:
+        vowels2 += 1
+print('Number of vowels: ' + str(vowels2))  

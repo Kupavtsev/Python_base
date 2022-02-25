@@ -1,6 +1,9 @@
 flag = False
-N = int(input())
+
+N = int(input('Enter number of tryes: '))
+
 for i in range(N):
-    x = int(input())
-    flag = (x %== 0) or flag
+    x = int(input('Enter number: '))
+    flag = (x == 0) or flag
+
 print(flag)
