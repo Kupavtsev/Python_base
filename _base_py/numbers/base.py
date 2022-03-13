@@ -1,6 +1,6 @@
 base = 7
-x = int(input())
+x = int(input('eneter number: '))
 while x > 0:
     digit = x % base
-    print(digit, end = '')
+    print(digit, '\n')
     x //= base
