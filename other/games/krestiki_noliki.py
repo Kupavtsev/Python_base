@@ -39,7 +39,14 @@ def turn():
 
     print('You can choice from free squares : ', free_squares_user_friendly)
     user_turn = input('Enter your turn: ')
-    turn = (int(user_turn[0]), int(user_turn[1]))
+    # turn = (int(user_turn[0]), int(user_turn[1]))
+    if user_turn.isdigit():
+        turn = (int(user_turn[0]), int(user_turn[1]))
+    else:
+        # print('Введите допустимое число!')
+        user_turn = input('Введите допустимое число! ')
+        turn = (int(user_turn[0]), int(user_turn[1]))
+
 
     table[turn] = 'x'
     ai_turn()
@@ -64,9 +71,12 @@ def ai_turn():
         print('No one have won!!!')
 
 # RULES OF THE GAME: Steight line three of kind
-def end_game(table):
+def check_end_game(table):
     for key in table:
-        if table[(1,1)] == 'x' and table[(1,2)] == 'x' and table[(1,3)] == 'x':
+        if (
+            table[(1,1)] == 'x' and
+            table[(1,2)] == 'x' and
+            table[(1,3)]) == 'x':
             return play_again(True)
         elif table[(2,1)] == 'x' and table[(2,2)] == 'x' and table[(2,3)] == 'x':
             return play_again(True)
@@ -119,7 +129,7 @@ def play_again(user):
                 (3,1): '_', (3,2): '_', (3,3): '_',
                 }
         show_board(table)
-        end_game(table)
+        check_end_game(table)
     else:
         print('Good bye')
         pass
@@ -128,4 +138,4 @@ def play_again(user):
 if __name__ == "__main__":
     import random
     show_board(table)
-    end_game(table)
+    check_end_game(table)
