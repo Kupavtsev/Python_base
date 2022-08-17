@@ -11,7 +11,8 @@ fin_actives = {'futures': {
 print(fin_actives)
 for name_a, active in fin_actives.items():
     print('\nActive: ' + name_a)
-    full_name = active['CME'] + " "
-    full_name += active['FORTS']
+    print('\nValues: ', active)
+    full_name = str(active) + " "
+    # full_name += active['FORTS']
     
     print('\nFull name: ' + full_name.title())

@@ -1,5 +1,0 @@
-input_test = input('enter food categories eaten in last 24 hrs: ').lower()
-print("It is", 'dairy' in input_test, "that", input_test, 'contains "dairy"')
-print("It is", 'nuts' in input_test, "that", input_test, 'contains "nuts"')
-print("It is", 'seafood' in input_test, "that", input_test, 'contains "seafood"')
-print("It is", 'chocolate' in input_test, "that", input_test, 'contains "chocolate"')
