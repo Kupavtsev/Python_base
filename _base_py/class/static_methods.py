@@ -1,7 +1,5 @@
 # Static methods of class
 # Count number of instances
-import numbers
-import pstats
 
 # First version
 '''

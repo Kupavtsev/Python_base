@@ -1,5 +1,5 @@
 '''
-That is doesnt work with targets exeeded range of list
+That is doesn't work with targets exeeded range of list
 '''
 
 def recursion_binary_search(list, target):
