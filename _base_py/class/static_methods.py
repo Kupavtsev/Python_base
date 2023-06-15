@@ -44,11 +44,12 @@ Spam_static.counter()   # 3
 
 class Spam():
     numInstances = 0
+    @classmethod
     def count(cls):
         cls.numInstances += 1
     def __init__(self):
         self.count()
-    count = classmethod(count)
+    # count = classmethod(count)
 
 class Sub(Spam):
     numInstances = 0

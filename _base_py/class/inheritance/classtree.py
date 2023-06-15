@@ -12,6 +12,7 @@ def classtree(cls, indent):
 def instancetree(inst):
     print('Tree of', inst)
     classtree(inst.__class__, 3)
+    
 def selftest():
     class A:        pass
     class B(A):     pass
