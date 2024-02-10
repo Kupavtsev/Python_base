@@ -1,0 +1,2 @@
+Test of first string
+test of second without newline

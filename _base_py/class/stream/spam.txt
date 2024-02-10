@@ -1,0 +1,4 @@
+nyse
+nasdaq
+cme
+pokerstarts

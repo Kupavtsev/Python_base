@@ -1,1 +1,0 @@
-Here is only base and algos of Python

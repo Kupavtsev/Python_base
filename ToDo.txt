@@ -1,5 +1,0 @@
-Add as examples to db:
-csv to db
-xlrd to db
-excel to db
-sqlalchemy for all this stack

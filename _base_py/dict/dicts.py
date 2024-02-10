@@ -32,3 +32,5 @@ three = dict1.copy()
 three[7] = 70
 print(three)
 print(dict1)
+
+# print(dir(dict1))
