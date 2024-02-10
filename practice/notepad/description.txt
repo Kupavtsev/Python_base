@@ -1,0 +1,8 @@
+make_db_file.txt
+Creates DB in memory and saves it in file 'people-file'
+
+1.
+initdata => make_db_file => dump_db_file => update_db_file
+
+2.
+initdata => make_db_pickle => dump_db_pickle => update_db_pickle
