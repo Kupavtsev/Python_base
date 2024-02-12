@@ -1,4 +1,4 @@
-from make_db_file import loadDbase
+from console.make_db_file import loadDbase
 db = loadDbase()
 for key in db:
     print(key, '=>\n', db[key])
